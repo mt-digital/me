@@ -12,6 +12,7 @@ a.blog-nav-item, a.blog-nav-item:visited {
   font-family: Georgia,"Times New Roman",Times,serif;
   float:right;
   line-height: 56px; /* matches jekyll included */
+  padding: 0 10px;
 }
 
 a {
@@ -19,4 +20,25 @@ a {
 }
 a:visited {
   color: #846C4C;
+}
+
+.vert-center {
+  float:right;
+}
+
+ul.nav>li a.blog-nav-item:hover {
+ background-color: transparent;
+}
+ul.nav>li a.blog-nav-item:active {
+ background-color: transparent;
+}
+
+ul.nav>li a.blog-nav-item:link {
+ background-color: transparent;
+}
+
+.dropdown-menu > li > a.dropdown-option{
+  color: #846C4C;
+  font-size: 18px;
+  font-family: Georgia,"Times New Roman",Times,serif;
 }
