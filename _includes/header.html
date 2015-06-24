@@ -1,0 +1,22 @@
+<header class="site-header">
+
+
+      <div class="blog-masthead">
+        <div class="container">
+          <nav class="blog-nav">
+            <a class="site-title" href="{{ site.baseurl }}/">{{ site.title }} | <span style="font-size:20px">Northwest Knowledge Network, University of Idaho ORED</span></a>
+            {% for page in site.pages %}
+              {% if page.title %}
+              <div class="vert-center">
+                <a class="blog-nav-item" href="{{ page.url | prepend: site.baseurl }}">{{ page.title }}</a>
+              </div>
+              {% endif %}
+            {% endfor %}
+          </nav>
+        </div>
+      </div>
+    </nav>
+
+  </div>
+
+</header>

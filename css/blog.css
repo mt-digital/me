@@ -1,0 +1,22 @@
+.container {
+  width: 100%; 
+}
+.blog-masthead {
+  background-color: #B18E5F;
+  box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1) inset;
+}
+
+a.blog-nav-item, a.blog-nav-item:visited {
+  color: #eee;
+  font-size: 20px;
+  font-family: Georgia,"Times New Roman",Times,serif;
+  float:right;
+  line-height: 56px; /* matches jekyll included */
+}
+
+a {
+  color: #B18E5F;
+}
+a:visited {
+  color: #846C4C;
+}

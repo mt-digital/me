@@ -1,0 +1,22 @@
+{
+  "name": "mt.nkn",
+  "version": "0.0.0",
+  "authors": [
+    "Matthew Turner <maturner01@gmail.com>"
+  ],
+  "description": "MT at NKN",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "https://mt.northwestknowledge.net",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "public/components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.5"
+  }
+}

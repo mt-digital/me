@@ -1,0 +1,14 @@
+# Site settings
+title: Matt Turner
+email: maturner01@gmail.com
+description: > # this means to ignore newlines until "baseurl:"
+    Blog and information from Matthew Turner at the University of Idaho's 
+    Northwest Knowledge Network. NKN lives in the library and is a unit within
+    the UI Office of Research and Economic Development (ORED).
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "https://mt.northwestknowledge.net" # the base hostname & protocol for your site
+twitter_username: mat20k
+github_username:  mtpain
+
+# Build settings
+markdown: kramdown
