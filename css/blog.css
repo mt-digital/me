@@ -1,6 +1,7 @@
-.container {
-  width: 100%; 
+body {
+  font-size: 16px;    
 }
+
 .blog-masthead {
   background-color: #B18E5F;
   box-shadow: 0px -2px 5px rgba(0, 0, 0, 0.1) inset;
